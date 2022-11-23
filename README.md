@@ -1,4 +1,4 @@
-# Cristopher Iván Ortiz Villadañet
+# Christopher Iván Ortiz Villafañet
 
 ## [Github](https://github.com/ChristopherOrtiz69)
 
