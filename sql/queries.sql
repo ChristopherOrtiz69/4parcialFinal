@@ -1,4 +1,4 @@
-USER formula_1;
+USE formula_1;
 
 /*CREATE*/
 
@@ -90,20 +90,21 @@ UPDATE circuitos
 /*DELETE*/
 
 /*ELIMINAR un piloto*/
-DELETE FROM pilotos WHERE id_piloto = 1;
+DELETE FROM pilotos WHERE id_piloto = 10;
 
 /*ELIMINAR un circuito por su clima*/
-DELETE FROM circuitos WHERE clima = 'Seco';
+DELETE FROM circuitos WHERE clima = 'Caliente';
 
 /*ELIMINAR una tabla de posicion por puntos*/
 DELETE FROM tablas_posiciones WHERE puntos < 15;
 
 /*ELIMINAR una scuderia por victorias*/
-DELETE FROM scuderias WHERE victorias > 100;
+DELETE FROM scuderias WHERE victorias > 200;
 
 /*ELIMINAR un dominio*/
-DELETE FROM paises WHERE dominio = "ES";
-	
+DELETE FROM paises WHERE dominio = "ZZ";
+
+
 	
 	
 	
