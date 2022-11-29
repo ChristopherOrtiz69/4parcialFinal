@@ -260,12 +260,20 @@ INSERT INTO circuitos (nombre, pais_id, longitud, clima) VALUES
 	("Nazionale di Monza", 122, 5793, "Húmedo")
 ;
 	
+SELECT * FROM paises WHERE nombre = "Japon";
+
 INSERT INTO pilotos (nombre, apellido, nacionalidad, numero_campeonatos) VALUES	
-	("Max", "Verstappen", 172, 0),
+	("Max", "Verstappen", 172, 2),
 	("Lewis", "Hamilton", 185, 7),
 	("Sergio", "Pérez", 141, 0),
 	("George", "Russell", 185,0),
-	("Carlos", "Sainz Jr.", 64,0)
+	("Carlos", "Sainz Jr.", 64,0),
+	("Charles",	"Leclerc", 142, 0),
+	("Pierre",	"Gasly", 71, 0),
+	("Valtteri","Bottas", 69, 0),
+	("Gyaun", 	"Zhou", 124, 0),
+	("Tsunoda",	"Niki", 124, 0)
+	
 ;
 
 INSERT INTO scuderias (piloto_id, nombre, fundador, fecha_fundacion, victorias, presidente) VALUES
@@ -273,7 +281,8 @@ INSERT INTO scuderias (piloto_id, nombre, fundador, fecha_fundacion, victorias, 
 	(3, "Red Bull Racing", "Dietrich Mateschitz", "2004-11-15", 89, "Christian Horner"),
 	(2, "Mercedes AMG Petronas Motorsport", "Norbert Haug", "1954-07-4", 124,"Toto Wolff"),
 	(4, "Mercedes AMG Petronas Motorsport", "Norbert Haug", "1954-07-4", 124,"Toto Wolff"),
-	(5, "Scuderia Ferrari", "Enzo Ferrari", "1929-01-01", 242, "Mario Ferrari")
+	(5, "Scuderia Ferrari", "Enzo Ferrari", "1929-01-01", 242, "Mario Ferrari"),
+	(6, "Scuderia Ferrari", "Enzo Ferrari", "1929-01-01", 242, "Mario Ferrari")
 ;
 
 INSERT INTO tablas_posiciones (scuderia_id, circuito, puntos) VALUES	
@@ -281,6 +290,12 @@ INSERT INTO tablas_posiciones (scuderia_id, circuito, puntos) VALUES
 	(2,1,15),
 	(3,2,18),
 	(5,2,10),
-	(4,5,15)
+	(4,5,15),
+	(2,2,18),
+	(2,3,15),
+	(2,3,25),
+	(1,3,15),
+	(3,4,18)
 ;
+
 
